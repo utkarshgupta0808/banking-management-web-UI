@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="delete_customer.css">
+	<title>Delete Customer</title>
+</head>
+<body>
+<div  style="background-color: #000000;">
+      <div class="container" style="padding:25px">
+        <div class="row">
+          <h1 style="color: #FFD801; font-family: Arial"><strong> FedChoice &nbsp;</strong></h1>
+          <h1 style="color: #ffffff; font-family: Arial"> BANK </h1>
+        </div>
+      </div>
+      <div class="container">
+      <nav class="navbar navbar-light navbar-expand-md navbar-toggleable-md" style="background-color: #FFD801;">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon" ></span>
+
+          </button>
+            <div class="collapse navbar-collapse " id="Navbar">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active"><a class="nav-link" href="#" style="color: #000000; font-family: Arial"><strong>Home</strong></a></li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: Arial">
+                          <strong>
+                            Customer Management
+                          </strong>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: Arial">
+                          <strong>
+                            Account Management
+                          </strong>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: Arial">
+                          <strong>
+                            Status Details
+                          </strong>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: Arial">
+                          <strong>
+                            Account Operations
+                          </strong>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: #000000; font-family: Arial"><strong>Logout </strong></a></li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+	<div class="whole" style="background-image: linear-gradient(to bottom, grey, white);">
+		<div id="heading">
+			<h3>Delete Customer</h3>
+		</div>
+		<div id="form" class="col-sm-6 offset-sm-3">
+			<form>
+				<label class="col-sm-5 " >SSN Id: </label>
+				<input class="col-sm-5" type="number" name="ssnid" required><br>
+				<label class="col-sm-5">Customer Id: </label>
+				<input class="col-sm-5" type="number" name="cid" required><br>
+				<label class="col-sm-5">Customer Name: </label>
+				<input class="col-sm-5" type="text" name="cname" required><br>
+				<label class="col-sm-5">Age: </label>
+				<input class="col-sm-5" type="number" name="age" required><br>
+				<label class="col-sm-5">Address: </label>
+				<input class="col-sm-5" type="text" name="address" required><br><br>
+				<div class="row">
+					<div id="button1" class="col-sm-4 offset-sm-2"><button type="submit" class="btn btn-dark" >Confirm Delete</button></div>
+					<div id="button2" class="col-sm-4 "><button type="cancel" class="btn btn-outline-dark" >Cancel</button></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer class="footer" style="background-color: #000000; border-top: 5px solid #FFD801; ">
+    <div class="container">
+        <div class="row">             
+            <div class="col-4 col-sm-5" style="padding-top: 20px; padding-bottom: 20px;">
+                <h3 style="color: #FFD801; font-family: Arial"><strong>About Us</strong></h3>
+                <p style="color: rgb(155, 155, 155); font-family: Arial; text-align: justify;">FedChoice Bank was founded on 14th June 2016 with the objectives of provideing with the detail services based on Retail Banking Operations.The Retail Internet Banking of FedChoice Bank offers a plethora of products and services, to cater its customers by proviiding certain animus services with an easy volving offers and ways to do the required job without hurdling the process.</p>
+            </div>
+            <div class="col-4 col-sm-3" style="padding-top: 20px; padding-bottom: 20px;">
+              <h3 style="color: #FFD801; font-family: Arial"><strong>Services</strong></h3>
+              <p style="color: rgb(155, 155, 155); font-family: Arial;">Retail and Customer Banking Personal Internet Banking Corporate Internet Banking Debit and Credit Cards</p>
+            </div>
+            <div class="col-12 col-sm-4" style="padding-top: 20px; padding-bottom: 20px;">
+              <h3 style="color: #FFD801; font-family: Arial"><strong>Contact Us</strong></h3>
+              <p style="color: rgb(155, 155, 155); font-family: Arial;">
+                Email : customer.service@fedchoice com"<br>
+                Contact No : 022-42406778, 022-54567890<br>
+                Address : Corporate Office, Madame Cama Road,
+                Nariman Point, Mumbai, Maharashtra 400021
+              </p>
+            </div>
+       </div>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
